@@ -21,5 +21,6 @@ The base class has a virtual destructor so that derived objects are cleaned up c
 Same call, different behaviour
 
 The call 's->draw()' is identical every time, yet it prints a circle message, a rectangle message or a triangle message. Even 'describe()', which is defined only in Shape, prints a different area because it calls the virtual 'area()'.
+<img width="3024" height="4032" alt="20261026_190011" src="https://github.com/user-attachments/assets/fe6f1637-9ea4-4415-929b-fe873d1f049e" />
 
 
